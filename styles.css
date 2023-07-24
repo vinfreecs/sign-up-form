@@ -8,17 +8,19 @@ body{
 .sideimage{
     height: 100vh;
     width: 45vw;
+    background-image: url(./images/alice-denysenko-NpakXB-Bk5U-unsplash.jpg);
 }
 .backimage{
     height: 100vh;
 }
 .icon{
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 96px;
     top: 25%;
+    width: inherit;
     background-color: rgba(0, 0, 0, 0.459);
 }
 .icon img{
